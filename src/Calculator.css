@@ -1,0 +1,32 @@
+.Calculator .Calculator_Input {
+  display: flex;
+  justify-content: center;
+}
+
+.Calculator .Calculator_Input input {
+  width: 150px;
+}
+
+.Calculator .Calculator_Output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.Calculator_Input form fieldset {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Calculator_Input form label {
+  display: block;
+  margin-bottom: 5px;
+}
